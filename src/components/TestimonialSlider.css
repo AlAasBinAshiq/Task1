@@ -1,0 +1,89 @@
+.testimonials {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.testimonials h4 {
+  color: #001c8c;
+  font-size: 14px;
+ 
+  text-transform: uppercase;
+}
+
+.testimonials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: 400%;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #001c8c;
+  color: white;
+  border: none;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cards-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 700px;
+  padding: 0 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0 10px;
+  min-width: 320px;
+  max-width: 320px;
+  scroll-snap-align: start;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: left;
+  flex-shrink: 0;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #001c8c;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #001c8c;
+  margin: 5px 0;
+}
+
+.card .location {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.card .testimonial {
+  font-size: 14px;
+  color: #333;
+}
